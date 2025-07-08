@@ -1,3 +1,10 @@
+/**
+ * @description       : 
+ * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @group             : 
+ * @last modified on  : 07-08-2025
+ * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+**/
 public with sharing class WhatsAppAgentAPI {
    
     // Get Access Token from Custom Metadata
@@ -94,4 +101,5 @@ public with sharing class WhatsAppAgentAPI {
         @InvocableVariable(required=true)
         public String contactId; // Passing Contact ID instead of Phone Number
     }
+    // new line added
 }
